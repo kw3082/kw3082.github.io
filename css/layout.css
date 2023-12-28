@@ -1,0 +1,105 @@
+@font-face{
+    font-family :'나눔';
+    src : url(../font/NanumSquareR.woff);
+    
+}
+
+
+body {
+    margin: 0px;
+    font-family: '나눔';
+    
+}
+
+
+
+.container {
+    width: 1000px;
+    margin: auto;
+    
+    
+}
+
+
+
+.left-menu {
+    float:left;
+    width: 70%;
+    height: 300px;
+    
+    
+        
+}
+
+.right-menu {
+    float: left;
+    width: 30%;
+    height: 300px;
+   
+}
+.right-menu img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.up {
+    width: 100%;
+    height: 100px;
+   
+    
+}
+.up img{
+    width: 10%;
+    margin-top: 12px;
+    margin-left: 20px;
+    float: left;
+    
+}
+
+.down {
+    width: 100%;
+    height: 200px;
+}
+
+.name {
+    float: left;
+    margin-left: 10px;
+}
+.name h4{
+    margin-bottom: 0px;
+}
+
+.name p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: gray;
+    
+}
+
+/*.navbar>li 직계자식*/
+
+.navbar li{ 
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    background: #eee;
+    padding: 10px;
+    border-radius: 10px;
+    
+    
+}
+
+
+.navbar a{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+

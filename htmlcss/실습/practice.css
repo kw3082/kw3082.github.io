@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+.header-bg {
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(cadetblue, cornflowerblue);
+    padding: 2px;
+    position: relative;
+    
+}
+
+.header-container {
+    width: 80%;
+    height: 800px;
+    margin: auto;
+    padding: 1px;
+    overflow: hidden;
+}
+
+
+    
+    
+
+
+.header-content h1,p {
+    width: 50%;
+    color: white;
+}
+
+.header-content p {
+    width: 35%;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.header-content {
+     margin-top: 100px;
+    
+}
+
+.button{
+    padding: 25px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: darkslategray;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.header-img {
+    position: relative;
+    float: right;
+    width: 33%;
+    background-image: url(iphone.png);
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    
+}
+
+.middle {
+    width: 100%;
+    padding: 50px;
+    
+}
+
+.middle-content {
+    width: 100%;
+    
+    text-align: center;
+}
+
+.service-bg {
+    background: cornflowerblue;
+    width: 100%;
+    height: 400px;
+    padding: 50px;
+}
+
+.service-title {
+    text-align: center;
+    color: white;
+}
+
+.service-icon {
+    display: flex;
+    width: 100%;
+    
+}
+.service-icon div{
+    width: 80%;
+    text-align: center;
+    
+}
+
+.service-icon h4{
+    color: white;
+    font-size: 30px;
+}
+
+.final-bg {
+    color: white;
+    padding: 10%;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 80%;
+    height: 100vh;
+    
+}
+
+
+table td{
+    background-size: cover;
+    
+}
+
+.final-content {
+    width: 50%;
+    margin: auto;
+    color: black;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px){
+    .header-content{
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+    .header-img{
+        clear: both;
+    }
+}
+    
